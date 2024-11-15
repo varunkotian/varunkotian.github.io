@@ -6,8 +6,10 @@ layout: homepage
 
 I am Varun, a researcher at TU Delft specializing in motion perception and motion sickness modeling.
 My mission is to enhance human comfort and safety in vehicles.
+
 I embody patience, respect, and integrity — values that guide my research and personal pursuits.
 My passion for climbing mountains reflects these qualities, as it demands patience for the ascent, respect for nature, and integrity in overcoming challenges.
+
 I am eager to collaborate with others to innovate and make a meaningful impact in this field.
 
 ## Research Interests
