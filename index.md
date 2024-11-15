@@ -10,7 +10,7 @@ Motion sickness is a upcoming is due to the increased prevalance of AVs which mo
 My mission is to enhance human comfort and safety in vehicles.
 
 I embody patience, respect, and integrity — values that guide my research and personal pursuits.<br />
-My reasearch as a specialist in human comfort needs patience to carry out experiments with humans.
+My reasearch as a specialist in human comfort needs patience to carry out experiments with humans.<br />
 My passion for climbing mountains reflects these qualities, as it demands patience for the ascent, respect for nature, and integrity in overcoming challenges.
 
 I am eager to collaborate with others to innovate and make a meaningful impact in this field.
