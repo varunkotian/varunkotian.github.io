@@ -1,0 +1,18 @@
+@article{DeWinkel2022,
+abstract = {High levels of vehicle automation are expected to increase the risk of motion sickness, which is a major detriment to driving comfort. The exact relation between motion sickness and discomfort is a matter of debate, with recent studies suggesting a relief of discomfort at the onset of nausea. In this study, we investigate whether discomfort increases monotonously with motion sickness and how the relation can best be characterized in a semantic experiment (Experiment 1) and a motion sickness experiment (Experiment 2). In Experiment 1, 15 participants performed pairwise comparisons on the subjective discomfort associated with each item on the popular MIsery SCale (MISC) of motion sickness. In Experiment 2, 17 participants rated motion sickness using the MISC during exposures to four sustained motion stimuli, and provided (1) numerical magnitude estimates of the discomfort experienced for each level of the MISC, and (2) verbal magnitude estimates with seven qualifiers, ranging between feeling ‘excellent' and ‘terrible'. The data of Experiment 1 show that the items of the MISC are ranked in order of appearance, with the exception of 5 (‘severe dizziness, warmth, headache, stomach awareness, and sweating') and 6 (‘slight nausea'), which are ranked in opposite order. However, in Experiment 2, we find that discomfort associated with each level of the MISC, as it was used to express motion sickness during exposure to a sickening stimulus, increases monotonously; following a power law with an exponent of 1.206. While the results of Experiment 1 replicate the non-linearity found in recent studies, the results of Experiment 2 suggest that the non-linearity is due to the semantic nature of Experiment 1, and that there is a positive monotonous relation between MISC and discomfort in practice. These results support the suitability of MISC to assess motion sickness.},
+author = {{De Winkel}, Ksander N and {Tuğrul Irmak}, {\textperiodcentered} and Kotian, Varun and Daan, {\textperiodcentered} and Pool, M and Happee, {\textperiodcentered} Riender},
+doi = {10.1007/S00221-022-06334-6},
+file = {:C$\backslash$:/Users/varunkotian/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/De Winkel et al. - 2022 - Relating individual motion sickness levels to subjective discomfort ratings.pdf:pdf},
+isbn = {0123456789},
+issn = {1432-1106},
+journal = {Experimental Brain Research 2022},
+keywords = {MIsery SCale,Motion sickness,Neurology,Neurosciences},
+mendeley-groups = {Varun Kotian,Tugrul Irmak},
+month = {feb},
+pages = {1--10},
+publisher = {Springer},
+title = {{Relating individual motion sickness levels to subjective discomfort ratings}},
+url = {https://link.springer.com/article/10.1007/s00221-022-06334-6},
+volume = {1},
+year = {2022}
+}

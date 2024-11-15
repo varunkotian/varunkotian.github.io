@@ -1,0 +1,15 @@
+@article{Happee2023,
+abstract = {Background: To counteract gravity, trunk motion and other perturbations, the human head-neck system requires continuous muscular stabilization. In this study, we combine a musculoskeletal neck model with models of Sensory Integration (SI) to unravel the role of vestibular, visual and muscle sensory cues in headneck stabilization, and relate SI conflicts and postural instability to motion sickness.Method: A 3D multi-segment neck model with 258 Hill type muscle elements was extended with postural stabilization using SI of vestibular (semicircular, otolith), and visual (rotation rate, verticality and yaw) cues using the multisensory observer model (MSOM) and the subjective vertical conflict model (SVC). Dynamic head-neck stabilization was studied using empirical datasets, including 6D trunk perturbations and a 4 m/s 2 slalom drive inducing motion sickness.Results: Recorded head translation and rotation are well matched when using all feedback loops with MSOM or SVC or assuming perfect perception. A basic version of the model, including muscle, but omitting vestibular and visual perception, shows that muscular feedback can stabilize the neck in all conditions. However, this model predicts excessive head rotations in conditions with trunk rotation and in the slalom. Adding feedback of head rotational velocity sensed by the semicircular canals effectively reduces head rotations at mid frequencies. Realistic head rotations at low frequencies are obtained adding vestibular and visual feedback of head rotation based on the MSOM or SVC model or assuming perfect perception. The MSOM with full vision well captures all conditions, whereas the MSOM excluding vision well captures all conditions without vision. The SVC provides two estimates of verticality, with a vestibular estimate SVCvest which is highly effective to control head verticality, and an integrated vestibular/visual estimate SVCint which can complement SVCvest in conditions with vision. As expected, in the sickening drive, SI models imprecisely estimate verticality, resulting in sensory conflict and postural instability.The results support validity of SI models in postural stabilization, where both MSOM and SVC provide credible results. Results in the sickening drive show imprecise sensory integration to enlarge head motion. This uniquely links the sensory conflict theory and the postural instability theory in motion sickness causation.},
+author = {Happee, Riender and Kotian, Varun and de Winkel, Ksander},
+doi = {10.3389/FNEUR.2023.1266345},
+file = {:C$\backslash$:/Users/varunkotian/Downloads/2023{\_}Happee{\_}Kotian{\_}deWinkel{\_}Neck stabilization through sensory integration of vestibular and visual motion cues.pdf:pdf},
+issn = {1664-2295},
+journal = {Frontiers in Neurology},
+keywords = {Neck,Oct 2023,P2,motion sickness Neck stabilization and sensory int,sensory conflict,sensory integration,stabilization},
+mendeley-groups = {Varun Kotian},
+pages = {1266345},
+publisher = {Frontiers},
+title = {{Neck stabilization through sensory integration of vestibular and visual motion cues}},
+volume = {14},
+year = {2023}
+}

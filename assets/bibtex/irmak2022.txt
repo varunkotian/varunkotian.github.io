@@ -1,0 +1,17 @@
+@article{Irmak2022c,
+abstract = {The relationship between the amplitude of motion and the accumulation of motion sickness in time is unclear. Here, we investigated this relationship at the individual and group level. Seventeen participants were exposed to four oscillatory motion stimuli, in four separate sessions, separated by at least 1 week to prevent habituation. Motion amplitude was varied between sessions at either 1, 1.5, 2, or 2.5 ms −2 . Time evolution was evaluated within sessions applying: an initial motion phase for up to 60 min, a 10-min rest, a second motion phase up to 30 min to quantify hypersensitivity and lastly, a 5-min rest. At both the individual and the group level, motion sickness severity (MISC) increased linearly with respect to acceleration amplitude. To analyze the evolution of sickness over time, we evaluated three variations of the Oman model of nausea. We found that the slow (502 s) and fast (66.2 s) time constants of motion sickness were independent of motion amplitude, but varied considerably between individuals (slow STD = 838 s; fast STD = 79.4 s). We also found that the Oman model with output scaling following a power law with an exponent of 0.4 described our data much better as compared to the exponent of 2 proposed by Oman. Lastly, we showed that the sickness forecasting accuracy of the Oman model depended significantly on whether the participants had divergent or convergent sickness dynamics. These findings have methodological implications for pre-experiment participant screening, as well as online tuning of automated vehicle algorithms based on sickness susceptibility.},
+author = {Irmak, Tugrul and Kotian, Varun and Happee, Riender and de Winkel, Ksander N. and Pool, Daan M.},
+doi = {10.3389/FNSYS.2022.866503},
+file = {:C$\backslash$:/Users/varunkotian/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Irmak et al. - 2022 - Amplitude and Temporal Dynamics of Motion Sickness(2).pdf:pdf},
+issn = {1662-5137},
+journal = {Frontiers in systems neuroscience},
+keywords = {Daan M Pool,MEDLINE,NCBI,NIH,NLM,National Center for Biotechnology Information,National Institutes of Health,National Library of Medicine,PMC9126086,PubMed Abstract,Tugrul Irmak,Varun Kotian,doi:10.3389/fnsys.2022.866503,pmid:35615427},
+mendeley-groups = {Translation freq amp sens,Varun Kotian,Tugrul Irmak},
+month = {may},
+pmid = {35615427},
+publisher = {Front Syst Neurosci},
+title = {{Amplitude and Temporal Dynamics of Motion Sickness}},
+url = {https://pubmed.ncbi.nlm.nih.gov/35615427/},
+volume = {16},
+year = {2022}
+}

@@ -1,0 +1,17 @@
+@article{Kotian2024,
+abstract = {Users of automated vehicles will engage in other activities and take their eyes off the road, making them prone to motion sickness. To resolve this, the current paper validates models predicting sickness in response to motion and visual conditions. We validate published models of vestibular and visual sensory integration that have been used for predicting motion sickness through sensory conflict. We use naturalistic driving data and laboratory motion (and vection) paradigms, such as sinusoidal translation and rotation at different frequencies, Earth-Vertical Axis Rotation, Off-Vertical Axis Rotation, Centrifugation, Somatogravic Illusion, and Pseudo-Coriolis, to evaluate different models for both motion perception and motion sickness. We investigate the effects of visual motion perception in terms of rotational velocity (visual flow) and verticality. According to our findings, the SVCI model, a 6DOF model based on the Subjective Vertical Conflict (SVC) theory, with visual rotational velocity input is effective at estimating motion sickness. However, it does not correctly replicate motion perception in paradigms such as roll-tilt perception during centrifuge, pitch perception during somatogravic illusion, and pitch perception during pseudo-Coriolis motions. On the other hand, the Multi-Sensory Observer Model (MSOM) accurately models motion perception in all considered paradigms, but does not effectively capture the frequency sensitivity of motion sickness, and the effects of vision on sickness. For both models (SVCI and MSOM), the visual perception of rotational velocity strongly affects sickness and perception. Visual verticality perception does not (yet) contribute to sickness prediction, and contributes to perception prediction only for the somatogravic illusion. In conclusion, the SVCI model with visual rotation velocity feedback is the current preferred option to design vehicle control algorithms for motion sickness reduction, while the MSOM best predicts perception. A unified model that jointly captures perception and motion sickness remains to be developed.},
+author = {Kotian, Varun and Irmak, Tugrul and Pool, Daan and Happee, Riender},
+doi = {10.1007/s00221-023-06747-x},
+file = {:C$\backslash$:/Users/varunkotian/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Kotian et al. - 2024 - The role of vision in sensory integration models for predicting motion perception and sickness.pdf:pdf},
+institution = {Intelligent Vehicles, Cognitive Robotics, Delft Univesity of Technology},
+issn = {1432-1106},
+journal = {Experimental Brain Research},
+mendeley-groups = {Varun Kotian},
+month = {jan},
+number = {3},
+pages = {685--725},
+title = {{The role of vision in sensory integration models for predicting motion perception and sickness}},
+url = {https://link.springer.com/10.1007/s00221-023-06747-x https://doi.org/10.1007/s00221-023-06747-x},
+volume = {242},
+year = {2024}
+}

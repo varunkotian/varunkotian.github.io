@@ -1,0 +1,11 @@
+@inproceedings{VarunKotian2023,
+address = {Amberg},
+author = {Papaioannou, Georgios and Cvetkovic, Marko and Messiou, Chrysovalanto and Kotian, Varun and Shyrokau, Barys and Happee, Riender},
+booktitle = {Proceedings of the 4th International Comfort Congress},
+file = {:C$\backslash$:/Users/varunkotian/Downloads/valkenburg{\_}exp{\_}paper.pdf:pdf},
+mendeley-groups = {Varun Kotian},
+pages = {123--126},
+title = {{A novel experiment to unravel fundamental questions about postural stability and motion comfort in automated vehicles}},
+url = {https://pure.tudelft.nl/ws/portalfiles/portal/160233593/proceedings{\_}4th{\_}icc.pdf},
+year = {2023}
+}

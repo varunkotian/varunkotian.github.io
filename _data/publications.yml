@@ -1,22 +1,56 @@
 main:
+  - title: Amplitude Dynamics of Motion Sickness
+    authors: <strong>Varun Kotian</strong>
+    conference_short: MSc Thesis
+    conference: Master's Thesis at TU Delft, 2021.
+    pdf: https://repository.tudelft.nl/file/File_1635fbc7-3af5-4aa5-872b-6233b54641e0
+    bibtex: ./assests/bibtex/kotian2021.txt
+    image: ./assets/img/teaser_example.png
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: Relating individual motion sickness levels to subjective discomfort ratings
+    authors: Ksander De Winkel, Tugrul Irmak, <strong>Varun Kotian</strong>, Riender Happee, Daan M Pool 
+    conference_short: EBR
+    conference: Experimental Brain Research, 2022.
+    pdf: https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2022.866503/pdf
+    bibtex: ./assests/bibtex/dewinkel2022.txt
+    image: ./assets/img/teaser_example.png
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
+  - title: Amplitude and Temporal Dynamics of Motion Sickness
+    authors: Tugrul Irmak*, <strong>Varun Kotian*</strong>, Riender Happee, Ksander De Winkel, Daan Pool (*Shared first authors)
+    conference_short: FNSYS 
+    conference: Frontiers in systems neuroscience, 2022.
+    pdf: https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2022.866503/pdf
+    bibtex: ./assests/bibtex/irmak2022.txt
+    image: ./assets/img/teaser_example.png
+
+  - title: A novel experiment to unravel fundamental questions about postural stability and motion comfort in automated vehicles
+    authors: Georgios Papaioannou, Marko Cvetkovic, Chrysovalanto Messiou, <strong>Varun Kotian</strong>, Barys Shyrokau, Riender Happee
+    conference_short: ICC
+    conference: International Comfort Congress, 2023.
+    pdf: https://research.tudelft.nl/files/160233593/proceedings_4th_icc.pdf#page=129
+    bibtex: ./assests/bibtex/papai2023.txt
+    image: ./assets/img/teaser_example.png
+
+  - title: Modelling individual motion sickness accumulation in vehicles and driving simulators
+    authors: <strong>Varun Kotian</strong>, Daan M Pool, Riender Happee
+    conference_short: DSC
+    conference: Driving Simulation Conference, 2023.
+    pdf: https://arxiv.org/pdf/2309.07088
+    bibtex: ./assests/bibtex/kotian2023.txt
+    image: ./assets/img/teaser_example.png
+
+  - title: Neck stabilization through sensory integration of vestibular and visual motion cues
+    authors: Riender Happee, <strong>Varun Kotian</strong>, Ksander N De Winkel
+    conference_short: FNEUR
+    conference: Frontiers in Neurology, 2023.
+    pdf: https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2023.1266345/pdf
+    bibtex: ./assests/bibtex/happee2023.txt
+    image: ./assets/img/teaser_example.png
+
+  - title: The role of vision in sensory integration models for predicting motion perception and sickness
+    authors: <strong>Varun Kotian</strong>, Tugrul Irmak, Daan Pool, Riender Happee
+    conference_short: EBR
+    conference: Experimental Brain Research, 2024.
+    pdf: https://link.springer.com/content/pdf/10.1007/s00221-023-06747-x.pdf
+    bibtex: ./assests/bibtex/kotian2024.txt
     image: ./assets/img/teaser_example.png

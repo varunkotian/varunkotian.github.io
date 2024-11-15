@@ -1,0 +1,11 @@
+@inproceedings{Kotian2023,
+address = {Antibes, France},
+author = {Kotian, Varun and Pool, Daan M and Happee, Riender},
+booktitle = {Proceedings of the Driving Simulation Conference},
+file = {:C$\backslash$:/Users/varunkotian/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Kotian, Pool, Happee - 2023 - Modelling individual motion sickness accumulation in vehicles and driving simulators.pdf:pdf},
+keywords = {conflict accumulation,motion sickness},
+mendeley-groups = {Varun Kotian},
+mendeley-tags = {conflict accumulation,motion sickness},
+title = {{Modelling individual motion sickness accumulation in vehicles and driving simulators}},
+year = {2023}
+}
