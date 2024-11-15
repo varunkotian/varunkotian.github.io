@@ -9,7 +9,7 @@ I am Varun, a researcher at TU Delft specializing in motion perception and motio
 Motion sickness is a upcoming is due to the increased prevalance of AVs which move users from being drivers to passengers which increases the probability of getting motion sick. This is a crtical issue for the acceptance and safety of users.
 My mission is to enhance human comfort and safety in vehicles.
 
-I embody patience, respect, and integrity — values that guide my research and personal pursuits.
+I embody patience, respect, and integrity — values that guide my research and personal pursuits.<br />
 My reasearch as a specialist in human comfort needs patience to carry out experiments with humans.
 My passion for climbing mountains reflects these qualities, as it demands patience for the ascent, respect for nature, and integrity in overcoming challenges.
 
