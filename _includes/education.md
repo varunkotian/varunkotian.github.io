@@ -5,7 +5,7 @@
 <li>
 <div><strong>PhD Candidate (2021 - Present)</strong></div>
 <p style="margin:0 5px 0;">
-<autocolor>Department Cognitive Robotics</autocolor><br> 
+<autocolor>Department of Cognitive Robotics</autocolor><br> 
 <autocolor>Mechanical Engineering</autocolor><br>
 <autocolor>Delft University of Technology</autocolor><br>
 </p>
@@ -24,7 +24,7 @@
 <br>
 
 <li>
-<div><strong>BTech Mechanical Engineering(2014 - 2018)</strong></div>
+<div><strong>BTech Mechanical Engineering (2014 - 2018)</strong></div>
 <p style="margin:0 5px 0;">
 <autocolor>K.J. Somaiya College of Engineering</autocolor><br>
 </p>
