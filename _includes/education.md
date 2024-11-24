@@ -1,6 +1,6 @@
 ## Education
 
-<ol>
+<ol class="education" style="list-style: none;">
 
 <li>
 <div><strong style="margin:0 10px 0;">PhD Candidate (2021 - Present)</strong></div>
