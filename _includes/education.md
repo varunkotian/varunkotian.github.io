@@ -1,6 +1,6 @@
 ## Education
 
-<strong style="margin:0 10px 0;">PhD Candidate (2021 - Present)</strong>
+<div><strong style="margin:0 10px 0;">PhD Candidate (2021 - Present)</strong></div>
 <p style="margin:0 15px 0;">
 <autocolor>Cognitive Robotics</autocolor><br> 
 <autocolor>Mechanical Engineering</autocolor><br>
