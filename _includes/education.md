@@ -1,7 +1,7 @@
 ## Education
 
 <h4 style="margin:0 10px 0;">PhD Candidate (2021 - Present)</h4>
-<h5 style="margin:0 10px 0;">Cognitive Robotics</h5>
+<h5 style="margin:0 10px 0;"><autocolor>Cognitive Robotics</autocolor></h5>
 <h5 style="margin:0 10px 0;">Mechanical Engineering</h5>
 <h5 style="margin:0 10px 0;">Delft University of Technology</h5>
 <br>
