@@ -11,6 +11,8 @@
 </p>
 </li>
 
+<br>
+
 <li>
 <div><strong style="margin:0 10px 0;">MSc (2019 - 2021)</strong></div>
 <p style="margin:0 15px 0;">
@@ -19,6 +21,8 @@
 <autocolor>Delft University of Technology</autocolor><br>
 </p>
 </li>
+
+<br>
 
 <li>
 <div><strong style="margin:0 10px 0;">BTech (2014 - 2018)</strong></div>
