@@ -15,7 +15,7 @@ My passion for climbing mountains reflects these qualities, as it demands patien
 
 I am eager to collaborate with others to innovate and make a meaningful impact in this field.
 
-<p style="margin:0.5em;"></p>
+<p style="margin:2em;"></p>
 
 ## Research Interests
 
@@ -23,7 +23,7 @@ I am eager to collaborate with others to innovate and make a meaningful impact i
 - **Experiments:** Experiment design, Testing, Validation, Sensor Integration
 - **Equipments:** Simulators, Autonomous Vehicles
 
-<p style="margin:0.5em;"></p>
+<p style="margin:2em;"></p>
 
 <!-- ## News
 
@@ -34,6 +34,7 @@ I am eager to collaborate with others to innovate and make a meaningful impact i
 
 
 {% include_relative _includes/education.md %}
+<p style="margin:2em;"></p>
 
 {% include_relative _includes/publications.md %}
 
