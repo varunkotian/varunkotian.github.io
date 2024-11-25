@@ -9,7 +9,7 @@
 </p>
 </li>
 
-<br>
+<p style="margin:0.5em;"></p>
 
 <li>
 <div><strong>MSc Vehicle Engineering (2019 - 2021)</strong></div>
@@ -18,7 +18,7 @@
 </p>
 </li>
 
-<br>
+<p style="margin:0.5em;"></p>
 
 <li>
 <div><strong>BTech Mechanical Engineering (2014 - 2018)</strong></div>
