@@ -14,13 +14,15 @@ My reasearch as a specialist in human comfort needs patience to carry out experi
 My passion for climbing mountains reflects these qualities, as it demands patience for the ascent, respect for nature, and integrity in overcoming challenges.
 
 I am eager to collaborate with others to innovate and make a meaningful impact in this field.
-
+\
+\
 ## Research Interests
 
 - **Human Comfort:** Modeling and Simulation, Motion Sickness, Sensor Fusion, Comfort Prediction
 - **Experiments:** Experiment design, Testing, Validation, Sensor Integration
 - **Equipments:** Simulators, Autonomous Vehicles
-
+\
+\
 <!-- ## News
 
 - **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
