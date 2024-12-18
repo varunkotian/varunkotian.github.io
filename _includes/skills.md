@@ -19,7 +19,7 @@ ol.c {
 </style>
 
 ## Skills
-
+<div class="c">
 <ul class="c4">
 <li> Item 1
 <li> Item 2
@@ -34,5 +34,5 @@ ol.c {
 <li> Item 11
 <li> Item 12
 </ul>
-
+</div>
 
