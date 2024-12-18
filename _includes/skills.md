@@ -16,7 +16,6 @@
     <li> Control Design </li>
     <li> PCB Design </li>
     <li> Embedded Systems </li>    
-    <br>
     <li> MATLAB </li>
     <li> Python </li>
     <li> C++ </li>
