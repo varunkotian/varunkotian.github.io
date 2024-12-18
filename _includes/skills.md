@@ -10,18 +10,28 @@
 
 <div>
   <ul class="skills">
-    <li> Item 1 </li>
-    <li> Item 2 </li>
-    <li> Item 3 </li>
-    <li> Item 4 </li>
-    <li> Item 5 </li>
-    <li> Item 6 </li>
-    <li> Item 7 </li>
-    <li> Item 8 </li>
-    <li> Item 9 </li>
-    <li> Item 10 </li>
-    <li> Item 11 </li>
-    <li> Item 12 </li>
+    <li> Human Experiment Design </li>
+    <li> Vehicle Experiment Design </li>
+    <li> Modelling </li>
+    <li> Control Design </li>
+    <li> PCB Design </li>
+    <li> Embedded Systems </li>    
+    <li> MATLAB </li>
+    <li> Python </li>
+    <li> C++ </li>
+    <li> ROS 2 </li>
+    <li> JavaScript </li>
+    <br>
+    <li> Networking (P2P & VPN) </li>
+    <li> Remote Control </li>
+    <li> Server Management </li>
+    <li> AWS Lamda </li>
+    <li> Docker </li>
+    <li> Git </li>
+    <li> CAD & CAE </li>
+    <li> CNC & Lathe </li>
+    <li> Carbon Fiber </li>
+    <li> Soldering (Hand & Reflow) </li>
   </ul>
 </div>
 

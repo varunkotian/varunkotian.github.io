@@ -37,8 +37,8 @@ I am eager to collaborate with others to innovate and make a meaningful impact i
 <p style="margin:2em;"></p>
 
 
-<!-- {% include_relative _includes/skills.md %} 
-<p style="margin:2em;"></p> -->
+{% include_relative _includes/skills.md %} 
+<p style="margin:2em;"></p>
 
 {% include_relative _includes/publications.md %}
 
