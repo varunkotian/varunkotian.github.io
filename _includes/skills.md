@@ -1,7 +1,7 @@
 <style>
 .skills {
   column-gap: 3em;
-  width: fit-content;
+  width: 45em;
   column-count: 4;
 }
 </style>
@@ -16,6 +16,7 @@
     <li> Control Design </li>
     <li> PCB Design </li>
     <li> Embedded Systems </li>    
+    <br>
     <li> MATLAB </li>
     <li> Python </li>
     <li> C++ </li>
