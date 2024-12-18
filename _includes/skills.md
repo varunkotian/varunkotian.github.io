@@ -1,8 +1,29 @@
-<div class="row">
-  <div class="col-md-8" markdown="1">
-  Some text.
-  </div>
-  <div class="col-md-4" markdown="1">
-  Some more text.
-  </div>
-</div>
+---
+header-includes:
+    - \usepackage{multicol}
+    - \newcommand{\hideFromPandoc}[1]{#1}
+    - \hideFromPandoc{
+        \let\Begin\begin
+        \let\End\end
+        }
+---
+
+# Rule 1
+Description for rule 1.
+
+\Begin{multicols}{2}
+## Good
+```c
+int foo (void) 
+{
+    int i;
+}
+```
+
+## Bad
+```c
+int foo (void) {
+    int i;
+}
+```
+\End{multicols}
