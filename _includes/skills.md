@@ -8,7 +8,7 @@
 
 ## Skills
 
-<ul class="skills">
+<div class="skills">
 <li> Item 1
 <li> Item 2
 <li> Item 3
@@ -21,4 +21,4 @@
 <li> Item 10
 <li> Item 11
 <li> Item 12
-</ul>
+</div>
