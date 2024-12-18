@@ -36,6 +36,9 @@ I am eager to collaborate with others to innovate and make a meaningful impact i
 {% include_relative _includes/education.md %}
 <p style="margin:2em;"></p>
 
+
+{% include_relative _includes/skills.md %}
+
 {% include_relative _includes/publications.md %}
 
 
