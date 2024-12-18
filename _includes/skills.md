@@ -10,17 +10,19 @@
 
 <div>
   <ul class="skills">
-    <li> Human Experiment Design </li>
-    <li> Vehicle Experiment Design </li>
+    <li> Human Experiments </li>
+    <li> Vehicle Experiments </li>
     <li> Modelling </li>
     <li> Control Design </li>
     <li> PCB Design </li>
     <li> Embedded Systems </li>    
+    <br>
     <li> MATLAB </li>
     <li> Python </li>
     <li> C++ </li>
     <li> ROS 2 </li>
     <li> JavaScript </li>
+    <br>
     <br>
     <li> Networking (P2P & VPN) </li>
     <li> Remote Control </li>
@@ -32,6 +34,7 @@
     <li> CNC & Lathe </li>
     <li> Carbon Fiber </li>
     <li> Soldering (Hand & Reflow) </li>
+    <br>
   </ul>
 </div>
 
