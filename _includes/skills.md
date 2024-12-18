@@ -1,15 +1,38 @@
-A list of items:
+<style>
+.c{
+  column-gap: 2em;
+}
+ul.c,
+ol.c {
+  column-gap: 3em;
+  width: fit-content;
+}
+.c2 {
+  column-count: 2;
+}
+.c3 {
+  column-count: 3;
+}
+.c4 {
+  column-count: 4;
+}
+</style>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
-- Item 6
-- Item 7
-- Item 8
-- Item 9
-{.c .c3}
+## Skills
 
-There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning. It was neither an assault by the Picards nor the Burgundians, nor a hunt led along in procession, nor a revolt of scholars in the town of Laas, nor an entry of “our much dread lord, monsieur the king,” nor even a pretty hanging of male and female thieves by the courts of Paris.
-{.c .c2}
+<ul class="c4">
+<li> Item 1
+<li> Item 2
+<li> Item 3
+<li> Item 4
+<li> Item 5
+<li> Item 6
+<li> Item 7
+<li> Item 8
+<li> Item 9
+<li> Item 10
+<li> Item 11
+<li> Item 12
+</ul>
+
+
