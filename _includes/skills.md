@@ -1,26 +1,14 @@
 <style>
-.c{
-  column-gap: 2em;
-}
-ul.c,
-ol.c {
+.skills {
   column-gap: 3em;
   width: fit-content;
-}
-.c2 {
-  column-count: 2;
-}
-.c3 {
-  column-count: 3;
-}
-.c4 {
   column-count: 4;
 }
 </style>
 
 ## Skills
-<div class="c">
-<ul class="c4">
+
+<ul class="skills">
 <li> Item 1
 <li> Item 2
 <li> Item 3
@@ -34,5 +22,3 @@ ol.c {
 <li> Item 11
 <li> Item 12
 </ul>
-</div>
-
