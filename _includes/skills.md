@@ -1,6 +1,6 @@
 <style>
 .skills {
-  column-gap: 3em;
+  column-gap: 5em;
   width: fit-content;
   column-count: 2;
   margin-block-start: 1em;
