@@ -4,17 +4,12 @@ layout: homepage
 
 ## About Me
 
-Experienced researcher and engineer with expertise in vehicle dynamics, motion perception, and robotics. 
-
-Specializing in large-scale human experimentation and modelling human responses.
-
-Excited about improving automated driving systems and enhancing user experiences.
-
-My passion for climbing mountains reflects my qualities as it demands —
-
-patience for the ascent, respect for nature, and integrity in overcoming challenges.
-
-Looking forward to collaborating with others to innovate and make a meaningful impact.
+Experienced researcher and engineer with expertise in vehicle dynamics, motion perception, and robotics. <br />
+Specializing in large-scale human experimentation and modelling human responses.<br />
+Excited about improving automated driving systems and enhancing user experiences.<br />
+My passion for climbing mountains reflects my qualities as it demands —<br />
+patience for the ascent, respect for nature, and integrity in overcoming challenges.<br />
+Looking forward to collaborating with others to innovate and make a meaningful impact.<br />
 
 <p style="margin:2em;"></p>
 
