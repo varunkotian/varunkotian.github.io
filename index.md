@@ -29,11 +29,18 @@ Looking forward to collaborating with others to innovate and make a meaningful i
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
 
 
-{% include_relative _includes/education.md %}
-<p style="margin:2em;"></p>
 
 
 {% include_relative _includes/skills.md %} 
+<p style="margin:2em;"></p>
+
+{% include_relative _includes/education.md %}
+<p style="margin:2em;"></p>
+
+{% include_relative _includes/experience.md %}
+<p style="margin:2em;"></p>
+
+{% include_relative _includes/equipments.md %}
 <p style="margin:2em;"></p>
 
 {% include_relative _includes/publications.md %}
