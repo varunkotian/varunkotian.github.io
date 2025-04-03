@@ -3,6 +3,20 @@
 <ol class="education" style="list-style: none;">
 
 <li style="margin-bottom: 0.5em;">
+<div><strong>Visiting Reseracher (2024 - 2024)</strong></div>
+<p style="margin:0 5px 0;">
+<autocolor>Human Robotics Lab, Nara Institute of Science and Technology, Nara</autocolor><br>
+</p>
+</li>
+
+<li style="margin-bottom: 0.5em;">
+<div><strong>Visiting Reseracher (2022 - 2023)</strong></div>
+<p style="margin:0 5px 0;">
+<autocolor>Toyota Motor Europe, Zaventum</autocolor><br>
+</p>
+</li>
+
+<li style="margin-bottom: 0.5em;">
 <div><strong>Vehicle Dynamics Engineer (2020 - 2021)</strong></div>
 <p style="margin:0 5px 0;">
 <autocolor>Nova Electric Racing, D:DREAM Team at TU Delft, Delft</autocolor><br>
