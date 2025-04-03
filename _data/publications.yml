@@ -54,3 +54,11 @@ main:
     pdf: https://link.springer.com/content/pdf/10.1007/s00221-023-06747-x.pdf
     bibtex: ./assets/bibtex/kotian2024.txt
     image: ./assets/img/pubs/kotian2024.png
+    
+  - title: Personalising Motion Sickness Models: Estimation and Statistical Modeling of Individual-Specific Parameters
+    authors: <strong>Varun Kotian</strong>, Daan Pool, Riender Happee
+    conference_short: FNSYS
+    conference: Frontiers in systems neuroscience, 2025.
+    pdf: https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2025.1531795/pdf
+    bibtex: ./assets/bibtex/kotian2025.txt
+    image: ./assets/img/pubs/kotian2025.png

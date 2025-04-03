@@ -2,44 +2,44 @@ main:
   - title: SIMONA Research Simulator
     authors: Used during the experiment for the MSc Thesis
     conference: Faculty of Aerospace Engineering, TU Delft, 2021.
-    image: ./assets/img/equip/simona.png
+    image: ./assets/img/equip/simona.jpg
 
   - title: Mind Media Nexus
     authors: Used multiple times during the MSc and PhD to measure skin conductance variance under motion stimuls
     conference:  Faculty of Mechanical Engineering, TU Delft, 2021-2023.
-    image: ./assets/img/equip/nexus.png
+    image: ./assets/img/equip/nexus.jpg
 
   - title: Toyota Prius Instrumented Vehicle
     authors: Used in a GPS path following mode (psudo-autonomous mode) using steering and pedal robots for an experiment during the PhD
     conference: Faculty of Mechanical Engineering, TU Delft, 2023.
-    image: ./assets/img/equip/prius.png
+    image: ./assets/img/equip/prius.jpg
 
   - title: OptiTrack Motion Capture System
     authors: Used in an experiment during the PhD to measure head and upper body motion non-intrusively
     conference: Faculty of Mechanical Engineering, TU Delft, 2023.
-    image: ./assets/img/equip/optitrack.png
+    image: ./assets/img/equip/optitrack.jpg
 
   - title: XSens Motion Capture Suit
     authors: Used in an experiment during the PhD to measure head and full body motion during a sickening drive
     conference: Faculty of Mechanical Engineering, TU Delft, 2023.
-    image: ./assets/img/equip/xsens.png
+    image: ./assets/img/equip/xsens.jpg
 
   - title: 6DOF Motion Platform
     authors: Used in an experiment during the PhD to measure subjective human response to pitch stimuli
     conference:  Human Robotics Lab, Nara Institute of Science and Technology, 2024.
-    image: ./assets/img/equip/naist.png
+    image: ./assets/img/equip/naist.jpg
 
   - title: DAVSi Vehicle Simulator
     authors: Used in an experiment during the PhD to quantify the ability of our motion cueing algorithm to manipulate motion sickness levels
     conference:  Faculty of Mechanical Engineering, TU Delft, 2025.
-    image: ./assets/img/equip/davsi.png
+    image: ./assets/img/equip/davsi.jpg
 
   - title: Microsoft Kinect
     authors: Used in an experiment during the PhD to measure head motion non-intrusively
     conference:  Faculty of Mechanical Engineering, TU Delft, 2025.
-    image: ./assets/img/equip/kinect.png
+    image: ./assets/img/equip/kinect.jpg
 
   - title: XSens DOT
     authors: Used in an experiment during the PhD to measure head motion 
     conference:  Faculty of Mechanical Engineering, TU Delft, 2025.
-    image: ./assets/img/equip/xsensdot.png
+    image: ./assets/img/equip/xsensdot.jpg

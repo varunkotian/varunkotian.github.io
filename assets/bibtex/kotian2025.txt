@@ -1,0 +1,13 @@
+@article{Kotian,
+abstract = {As users transition from drivers to passengers in automated vehicles, they often take their eyes off the road to engage in non-driving activities. In driving simulators, visual motion is presented with scaled or without physical motion, leading to a mismatch between expected and perceived motion. Both conditions elicit motion sickness, calling for enhanced vehicle and simulator motion control strategies. Given the large differences in sickness susceptibility between individuals, effective countermeasures must address this at a personal level. This paper combines a group-averaged sensory conflict model with an individualised Accumulation Model (AM) to capture individual differences in motion sickness susceptibility across various conditions. The feasibility of this framework is verified using three datasets involving sickening conditions: 1) vehicle experiments with and without outside vision, 2) corresponding vehicle and driving simulator experiments, and 3) vehicle experiments with various non-driving-related tasks. All datasets involve passive motion, mirroring experience in automated vehicles. The preferred model (AM2) can fit individual motion sickness responses across conditions using only two individualised parameters (gain K 1 and time constant T 1 ) instead of the original five, ensuring unique parameters for each participant and generalisability across conditions. An average improvement factor of 1.7 in fitting individual motion sickness responses is achieved with the AM2 model compared to the group-averaged AM0 model. This framework demonstrates robustness by accurately modelling distinct motion and vision conditions. A Gaussian mixture model of the parameter distribution across a population is developed, which predicts motion sickness in an unseen dataset with an average RMSE of 0.47. This model reduces the need for large-scale population experiments, accelerating research and development.},
+author = {Kotian, Varun and Pool, Daan Marinus and Happee, Riender},
+doi = {10.3389/FNSYS.2025.1531795},
+issn = {1662-5137},
+journal = {Frontiers in Systems Neuroscience},
+keywords = {Motion Sickness,Simulator sickness,automated vehicles,driving simulators,modeling},
+mendeley-groups = {Varun Kotian},
+pages = {1531795},
+publisher = {Frontiers},
+title = {{Personalising Motion Sickness Models: Estimation and Statistical Modeling of Individual-Specific Parameters}},
+volume = {19}
+}
