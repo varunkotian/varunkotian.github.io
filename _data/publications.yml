@@ -1,43 +1,19 @@
-main:
-  - title: Amplitude Dynamics of Motion Sickness
-    authors: <strong>Varun Kotian</strong>
-    conference_short: MSc Thesis
-    conference: Master's Thesis at TU Delft, 2021.
-    pdf: https://repository.tudelft.nl/file/File_1635fbc7-3af5-4aa5-872b-6233b54641e0
-    bibtex: ./assets/bibtex/kotian2021.txt
-    image: ./assets/img/pubs/kotian2021.png
+main:    
+  - title: Personalising Motion Sickness Models: Estimation and Statistical Modeling of Individual-Specific Parameters
+    authors: <strong>Varun Kotian</strong>, Daan Pool, Riender Happee
+    conference_short: FNSYS
+    conference: Frontiers in systems neuroscience, 2025.
+    pdf: https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2025.1531795/pdf
+    bibtex: ./assets/bibtex/kotian2025.txt
+    image: ./assets/img/pubs/kotian2025.png
 
-  - title: Relating individual motion sickness levels to subjective discomfort ratings
-    authors: Ksander De Winkel, Tugrul Irmak, <strong>Varun Kotian</strong>, Riender Happee, Daan M Pool 
+  - title: The role of vision in sensory integration models for predicting motion perception and sickness
+    authors: <strong>Varun Kotian</strong>, Tugrul Irmak, Daan Pool, Riender Happee
     conference_short: EBR
-    conference: Experimental Brain Research, 2022.
-    pdf: https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2022.866503/pdf
-    bibtex: ./assets/bibtex/dewinkel2022.txt
-    image: ./assets/img/pubs/dewinkel2022.png
-
-  - title: Amplitude and Temporal Dynamics of Motion Sickness
-    authors: Tugrul Irmak*, <strong>Varun Kotian*</strong>, Riender Happee, Ksander De Winkel, Daan Pool (*Shared first authors)
-    conference_short: FNSYS 
-    conference: Frontiers in systems neuroscience, 2022.
-    pdf: https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2022.866503/pdf
-    bibtex: ./assets/bibtex/irmak2022.txt
-    image: ./assets/img/pubs/irmak2022.png
-
-  - title: A novel experiment to unravel fundamental questions about postural stability and motion comfort in automated vehicles
-    authors: Georgios Papaioannou, Marko Cvetkovic, Chrysovalanto Messiou, <strong>Varun Kotian</strong>, Barys Shyrokau, Riender Happee
-    conference_short: ICC
-    conference: International Comfort Congress, 2023.
-    pdf: https://research.tudelft.nl/files/160233593/proceedings_4th_icc.pdf#page=129
-    bibtex: ./assets/bibtex/papai2023.txt
-    image: ./assets/img/pubs/papai2023.png
-
-  - title: Modelling individual motion sickness accumulation in vehicles and driving simulators
-    authors: <strong>Varun Kotian</strong>, Daan M Pool, Riender Happee
-    conference_short: DSC
-    conference: Driving Simulation Conference, 2023.
-    pdf: https://arxiv.org/pdf/2309.07088
-    bibtex: ./assets/bibtex/kotian2023.txt
-    image: ./assets/img/pubs/kotian2023.png
+    conference: Experimental Brain Research, 2024.
+    pdf: https://link.springer.com/content/pdf/10.1007/s00221-023-06747-x.pdf
+    bibtex: ./assets/bibtex/kotian2024.txt
+    image: ./assets/img/pubs/kotian2024.png
 
   - title: Neck stabilization through sensory integration of vestibular and visual motion cues
     authors: Riender Happee, <strong>Varun Kotian</strong>, Ksander N De Winkel
@@ -47,18 +23,42 @@ main:
     bibtex: ./assets/bibtex/happee2023.txt
     image: ./assets/img/pubs/happee2023.png
 
-  - title: The role of vision in sensory integration models for predicting motion perception and sickness
-    authors: <strong>Varun Kotian</strong>, Tugrul Irmak, Daan Pool, Riender Happee
+  - title: Modelling individual motion sickness accumulation in vehicles and driving simulators
+    authors: <strong>Varun Kotian</strong>, Daan M Pool, Riender Happee
+    conference_short: DSC
+    conference: Driving Simulation Conference, 2023.
+    pdf: https://arxiv.org/pdf/2309.07088
+    bibtex: ./assets/bibtex/kotian2023.txt
+    image: ./assets/img/pubs/kotian2023.png
+
+  - title: A novel experiment to unravel fundamental questions about postural stability and motion comfort in automated vehicles
+    authors: Georgios Papaioannou, Marko Cvetkovic, Chrysovalanto Messiou, <strong>Varun Kotian</strong>, Barys Shyrokau, Riender Happee
+    conference_short: ICC
+    conference: International Comfort Congress, 2023.
+    pdf: https://research.tudelft.nl/files/160233593/proceedings_4th_icc.pdf#page=129
+    bibtex: ./assets/bibtex/papai2023.txt
+    image: ./assets/img/pubs/papai2023.png
+
+  - title: Amplitude and Temporal Dynamics of Motion Sickness
+    authors: Tugrul Irmak*, <strong>Varun Kotian*</strong>, Riender Happee, Ksander De Winkel, Daan Pool (*Shared first authors)
+    conference_short: FNSYS 
+    conference: Frontiers in systems neuroscience, 2022.
+    pdf: https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2022.866503/pdf
+    bibtex: ./assets/bibtex/irmak2022.txt
+    image: ./assets/img/pubs/irmak2022.png
+
+  - title: Relating individual motion sickness levels to subjective discomfort ratings
+    authors: Ksander De Winkel, Tugrul Irmak, <strong>Varun Kotian</strong>, Riender Happee, Daan M Pool 
     conference_short: EBR
-    conference: Experimental Brain Research, 2024.
-    pdf: https://link.springer.com/content/pdf/10.1007/s00221-023-06747-x.pdf
-    bibtex: ./assets/bibtex/kotian2024.txt
-    image: ./assets/img/pubs/kotian2024.png
-    
-  - title: Personalising Motion Sickness Models: Estimation and Statistical Modeling of Individual-Specific Parameters
-    authors: <strong>Varun Kotian</strong>, Daan Pool, Riender Happee
-    conference_short: FNSYS
-    conference: Frontiers in systems neuroscience, 2025.
-    pdf: https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2025.1531795/pdf
-    bibtex: ./assets/bibtex/kotian2025.txt
-    image: ./assets/img/pubs/kotian2025.png
+    conference: Experimental Brain Research, 2022.
+    pdf: https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2022.866503/pdf
+    bibtex: ./assets/bibtex/dewinkel2022.txt
+    image: ./assets/img/pubs/dewinkel2022.png
+
+  - title: Amplitude Dynamics of Motion Sickness
+    authors: <strong>Varun Kotian</strong>
+    conference_short: MSc Thesis
+    conference: Master's Thesis at TU Delft, 2021.
+    pdf: https://repository.tudelft.nl/file/File_1635fbc7-3af5-4aa5-872b-6233b54641e0
+    bibtex: ./assets/bibtex/kotian2021.txt
+    image: ./assets/img/pubs/kotian2021.png
