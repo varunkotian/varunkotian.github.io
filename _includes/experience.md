@@ -19,7 +19,7 @@
 <li style="margin-bottom: 0.5em;">
 <div><strong>Trainee on Tool Management (2016 - 2016)</strong></div>
 <p style="margin:0 5px 0;">
-<autocolor>Godrej \& Boyce Mfg. Co. Ltd., Mumbai</autocolor><br>
+<autocolor>Godrej & Boyce Mfg. Co. Ltd., Mumbai</autocolor><br>
 </p>
 </li>
 
