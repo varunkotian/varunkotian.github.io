@@ -46,7 +46,7 @@ College (2016 - 2016)</strong></div>
 </li>
 
 <li style="margin-bottom: 0.5em;">
-<div><strong>Aerodynamics Head \& Assistant Technical Coordinator (2017 - 2018)</strong></div>
+<div><strong>Aerodynamics Head & Assistant Technical Coordinator (2017 - 2018)</strong></div>
 <p style="margin:0 5px 0;">
 <autocolor>Orion Racing India, Formula Student Team (FSAE) of K. J. Somaiya College of Engineering.</autocolor><br>
 </p>
