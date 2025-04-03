@@ -38,8 +38,6 @@
     <li> IPG Carmaker </li>
     <li> ROS 2 </li>
     <li> JavaScript </li>
-    <li> Docker </li>
-    <li> Git </li>
     <li> Latex </li>
     <li> Networking (P2P & VPN) </li>
     <li> Server Management </li>
