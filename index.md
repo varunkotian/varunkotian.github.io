@@ -40,8 +40,8 @@ Looking forward to collaborating with others to innovate and make a meaningful i
 {% include_relative _includes/experience.md %}
 <p style="margin:2em;"></p>
 
-{% include_relative _includes/equipments.md %}
-<p style="margin:2em;"></p>
+<!-- {% include_relative _includes/equipments.md %}
+<p style="margin:2em;"></p> -->
 
 {% include_relative _includes/publications.md %}
 
