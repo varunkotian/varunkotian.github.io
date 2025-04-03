@@ -22,7 +22,7 @@ main:
   - title: XSens Motion Capture Suit
     authors: Used in an experiment during the PhD to measure head and full body motion during a sickening drive
     conference: Faculty of Mechanical Engineering, TU Delft, 2023.
-    image: ./assets/img/equip/xsens.jpg
+    # image: ./assets/img/equip/xsens.jpg
 
   - title: 6DOF Motion Platform
     authors: Used in an experiment during the PhD to measure subjective human response to pitch stimuli
