@@ -43,3 +43,8 @@ main:
     authors: Used in an experiment during the PhD to measure head motion 
     conference:  Faculty of Mechanical Engineering, TU Delft, 2025.
     image: ./assets/img/equip/xsensdot.jpg
+
+  - title: FSAE Cars
+    authors: Build and tested FSAE race car for competitions in India, Germany and Hundgary
+    conference:  K.J. Somiaya COllege of Engineering, 2018.
+    image: ./assets/img/equip/orioncar.jpg
