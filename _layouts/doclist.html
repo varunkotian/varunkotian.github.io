@@ -28,6 +28,15 @@
   </style>
 </head>
 <body>
+  <div id="passwordModal" style="position:fixed;top:0;left:0;width:100%;height:100%;background:#000000aa;display:flex;justify-content:center;align-items:center;z-index:1000;">
+    <div style="background:white;padding:20px;border-radius:10px;text-align:center;min-width:300px;">
+      <h3>Enter password</h3>
+      <input type="password" id="passwordInput" placeholder="Password" style="padding:8px;width:80%;margin-top:10px;" />
+      <br>
+      <button id="passwordBtn" style="margin-top:10px;padding:8px 12px;">Submit</button>
+    </div>
+  </div>
+
   <div class="wrap">
     <header>
       <div>
@@ -46,23 +55,27 @@
   <script defer>
     (function(){
       const PASSWORD = atob("{{ site.docs_password }}"); // injected at build
-      // const PASSWORD = "test"; // injected at build
-    // if(!localStorage.getItem('authenticated')){
-    //   let input = prompt('Enter password to access this page:');
-    //   if(input !== PASSWORD){
-    //     document.body.innerHTML = '<h2>Access Denied</h2>'; 
-    //     return;
-    //   } else {
-    //     localStorage.setItem('authenticated', 'true');
-    //   }
-    // }
-    
-      let input = prompt('Enter password to access this page: ');
-      if(input !== PASSWORD){
-      document.body.innerHTML = '<h2>Access Denied</h2>'; 
-      return;
+      const modal = document.getElementById('passwordModal');
+      const input = document.getElementById('passwordInput');
+      const btn = document.getElementById('passwordBtn');
+
+      // Hide modal if already authenticated
+      if(localStorage.getItem('authenticated')){
+        modal.style.display='none';
       } else {
-      localStorage.setItem('authenticated', 'true');
+        btn.addEventListener('click', ()=>{
+          if(input.value === PASSWORD){
+            localStorage.setItem('authenticated','true');
+            modal.style.display='none';
+          } else {
+            alert('Wrong password');
+            input.value='';
+            input.focus();
+          }
+        });
+        input.addEventListener('keypress', (e)=>{
+          if(e.key === 'Enter') btn.click();
+        });
       }
 
       const list = document.getElementById('list');
