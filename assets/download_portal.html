@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Important Documents — Download Portal</title>
+  <meta name="description" content="Fast, lightweight page listing important documents for download.">
+  <style>
+    :root{--bg:#fff;--fg:#111;--muted:#6b7280;--accent:#0ea5a4;--btn-active-bg:#0ea5a4;--btn-active-fg:#fff;--btn-hover-bg:#e6f7f7}
+    html,body{height:100%}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;line-height:1.4;background:var(--bg);color:var(--fg);padding:20px}
+    .wrap{max-width:900px;margin:0 auto}
+    header{display:flex;align-items:center;gap:16px;margin-bottom:18px}
+    h1{font-size:1.125rem;margin:0}
+    .controls{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap;align-items:center}
+    input[type=search]{padding:8px 10px;border:1px solid #e6e6e6;border-radius:8px;min-width:220px}
+    .btn{background:transparent;border:1px solid #e6e6e6;padding:8px 10px;border-radius:8px;cursor:pointer;transition:all .2s}
+    .btn:hover{background:var(--btn-hover-bg)}
+    .btn[aria-pressed="true"]{background:var(--btn-active-bg);color:var(--btn-active-fg);border-color:var(--btn-active-bg)}
+    .list{margin-top:18px;padding:0;list-style:none;display:grid;gap:8px}
+    .item{display:flex;justify-content:space-between;align-items:center;padding:12px;border-radius:10px;border:1px solid #f0f0f0;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+    .meta{display:flex;flex-direction:column}
+    .title{font-weight:600}
+    .small{color:var(--muted);font-size:.9rem}
+    a.link{margin-left:12px;text-decoration:none;padding:8px 10px;border-radius:8px;border:1px solid #e6e6e6;background:#fafafa;font-size:.95rem}
+    .controls .count{color:var(--muted);margin-left:auto}
+    @media (max-width:560px){header{flex-direction:column;align-items:flex-start} .controls{width:100%} .controls .count{margin-left:0}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <!-- Logo removed -->
+      <div>
+        <h1>Important Documents</h1>
+        <div class="controls" id="controls">
+          <input id="search" type="search" placeholder="Search documents..." aria-label="Search documents">
+          <button id="sort" class="btn">Sort: newest</button>
+          <div class="count" id="count">0 documents</div>
+        </div>
+      </div>
+    </header>
+
+    <ul id="list" class="list"></ul>
+  </div>
+
+  <script defer>
+    (function(){
+      const list = document.getElementById('list');
+      const search = document.getElementById('search');
+      const sortBtn = document.getElementById('sort');
+      const controls = document.getElementById('controls');
+      const count = document.getElementById('count');
+      let items = [];
+      let filterType = null;
+      let fileTypes = new Set();
+
+      function updateCount(n){ count.textContent = n + (n===1? ' document':' documents'); }
+
+      function render(){
+        list.innerHTML = '';
+        items.forEach(i=> list.appendChild(i));
+      }
+
+      function filterItems(){
+        const q = search.value.trim().toLowerCase();
+        let visible = 0;
+        items.forEach(li=>{
+          const title = li.dataset.title.toLowerCase();
+          const meta = li.dataset.type.toLowerCase();
+          const matchText = q === '' || title.includes(q);
+          const matchType = !filterType || meta === filterType.toLowerCase();
+          const match = matchText && matchType;
+          li.style.display = match ? '' : 'none';
+          if(match) visible++;
+        });
+        updateCount(visible);
+      }
+
+      function sortByDate(desc=true){
+        items.sort((a,b)=>{
+          const ad = new Date(a.dataset.date).getTime()||0;
+          const bd = new Date(b.dataset.date).getTime()||0;
+          return desc ? bd-ad : ad-bd;
+        });
+        render();
+        sortBtn.textContent = 'Sort: ' + (desc? 'newest' : 'oldest');
+      }
+
+      async function loadMarkdown(){
+        try{
+          const res = await fetch('docs.md');
+          if(!res.ok) return;
+          const text = await res.text();
+          const lines = text.split(/\n/).filter(l=>l.startsWith('- '));
+          items = lines.map(line=>{
+            const match = line.match(/- \[(.+?)\]\((.+?)\) \| (.+?) \| (.+)/);
+            if(!match) return null;
+            const [_, title, url, type, date] = match;
+            fileTypes.add(type);
+            const li = document.createElement('li');
+            li.className = 'item';
+            li.dataset.title = title;
+            li.dataset.date = date;
+            li.dataset.type = type;
+            li.innerHTML = `
+              <div class="meta">
+                <div class="title">${title}</div>
+                <div class="small">${type} · ${date}</div>
+              </div>
+              <div><a class="link" href="${url}" target="_blank">Download</a></div>
+            `;
+            return li;
+          }).filter(Boolean);
+
+          fileTypes.forEach(ft=>{
+            const btn = document.createElement('button');
+            btn.className = 'btn';
+            btn.textContent = ft + ' only';
+            btn.setAttribute('aria-pressed', 'false');
+            btn.addEventListener('click', ()=>{
+              filterType = filterType === ft ? null : ft;
+              Array.from(controls.querySelectorAll('.btn')).forEach(b=>{
+                if(b!==sortBtn) b.setAttribute('aria-pressed', b===btn && filterType===ft);
+              });
+              filterItems();
+            });
+            controls.insertBefore(btn, count);
+          });
+
+          sortByDate(true);
+          filterItems();
+        }catch(e){
+          console.error('Could not load docs.md', e);
+        }
+      }
+
+      let t;
+      search.addEventListener('input', ()=>{ clearTimeout(t); t = setTimeout(filterItems, 120); });
+      let sortDesc = true;
+      sortBtn.addEventListener('click', ()=>{ sortDesc = !sortDesc; sortByDate(sortDesc); filterItems(); });
+
+      window.addEventListener('keydown', (e)=>{ if(e.key === '/' && document.activeElement !== search){ e.preventDefault(); search.focus(); }});
+
+      loadMarkdown();
+    })();
+  </script>
+</body>
+</html>
