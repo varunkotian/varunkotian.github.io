@@ -45,16 +45,25 @@
 
   <script defer>
     (function(){
-    const PASSWORD = atob("{{ site.docs_password }}"); // injected at build
-    if(!localStorage.getItem('authenticated')){
-      let input = prompt('Enter password to access this page:');
+      const PASSWORD = atob("{{ site.docs_password }}"); // injected at build
+      // const PASSWORD = "test"; // injected at build
+    // if(!localStorage.getItem('authenticated')){
+    //   let input = prompt('Enter password to access this page:');
+    //   if(input !== PASSWORD){
+    //     document.body.innerHTML = '<h2>Access Denied</h2>'; 
+    //     return;
+    //   } else {
+    //     localStorage.setItem('authenticated', 'true');
+    //   }
+    // }
+    
+      let input = prompt('Enter password to access this page: ');
       if(input !== PASSWORD){
-        document.body.innerHTML = '<h2>Access Denied</h2>'; 
-        return;
+      document.body.innerHTML = '<h2>Access Denied</h2>'; 
+      return;
       } else {
-        localStorage.setItem('authenticated', 'true');
+      localStorage.setItem('authenticated', 'true');
       }
-    }
 
       const list = document.getElementById('list');
       const search = document.getElementById('search');
@@ -99,7 +108,7 @@
 
       async function loadMarkdown(){
         try{
-          const res = await fetch('docs.md');
+          const res = await fetch('assets/docs.md');
           if(!res.ok) return;
           const text = await res.text();
           const lines = text.split(/\n/).filter(l=>l.startsWith('- '));
