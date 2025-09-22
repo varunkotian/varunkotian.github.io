@@ -3,7 +3,7 @@
 <ol class="education" style="list-style: none;">
 
 <li style="margin-bottom: 0.5em;">
-<div><strong>PhD Candidate (2021 - Present)</strong></div>
+<div><strong>PhD Candidate (2021 - 2025)</strong></div>
 <p style="margin:0 5px 0;">
 <autocolor>Department of Cognitive Robotics, Mechanical Engineering, Delft University of Technology</autocolor><br>
 </p>
