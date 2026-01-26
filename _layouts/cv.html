@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CV — Varun Kotian</title>
+    <style>
+        html,body { height:100%; margin:0; font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif; background:#f5f5f5; }
+        .toolbar { display:flex; gap:.5rem; align-items:center; padding:.5rem; background:#fff; box-shadow:0 1px 2px rgba(0,0,0,.05); }
+        .toolbar .title { flex:1; font-weight:600; }
+        .btn { padding:.4rem .6rem; border:1px solid #ddd; background:#fff; color:#111; text-decoration:none; border-radius:4px; font-size:.9rem; }
+        .viewer { height: calc(100vh - 52px); background:#222; display:flex; align-items:center; justify-content:center; }
+        object, iframe, embed { width:100%; height:100%; border:0; }
+        .container { max-width: 900px; width:100%; height:100%; background:#fff; box-shadow:0 6px 18px rgba(0,0,0,.08); }
+        @media (max-width:900px){ .container{ max-width:100% } }
+    </style>
+</head>
+<body>
+    <div class="toolbar">
+        <div class="title">Varun Kotian — CV</div>
+        <a class="btn" href="/assets/files/Varun_Kotian_CV.pdf" target="_blank" rel="noopener">Open in new tab</a>
+        <a class="btn" href="/assets/files/Varun_Kotian_CV.pdf" download>Download PDF</a>
+    </div>
+
+    <div class="viewer">
+        <div class="container" role="document" aria-label="Curriculum Vitae">
+            <!-- Primary PDF embed. Use absolute path from site root so it works when served. -->
+            <object data="../assets/files/Varun_Kotian_CV.pdf" type="application/pdf">
+                <!-- Fallback iframe -->
+                <iframe src="../assets/files/Varun_Kotian_CV.pdf"></iframe>
+                <!-- Final fallback link -->
+                <p style="padding:1rem; text-align:center;">
+                    Your browser does not support embedded PDFs. You can
+                    <a href="../assets/files/Varun_Kotian_CV.pdf" target="_blank" rel="noopener">download the CV here</a>.
+                </p>
+            </object>
+        </div>
+    </div>
+</body>
+</html>
