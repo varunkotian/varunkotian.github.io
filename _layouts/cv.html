@@ -18,20 +18,20 @@
 <body>
     <div class="toolbar">
         <div class="title">Varun Kotian — CV</div>
-        <a class="btn" href="/assets/files/Varun_Kotian_CV.pdf" target="_blank" rel="noopener">Open in new tab</a>
-        <a class="btn" href="/assets/files/Varun_Kotian_CV.pdf" download>Download PDF</a>
+        <a class="btn" href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener">Open in new tab</a>
+        <a class="btn" href="{{ site.cv_link | relative_url }}" download>Download PDF</a>
     </div>
 
     <div class="viewer">
         <div class="container" role="document" aria-label="Curriculum Vitae">
-            <!-- Primary PDF embed. Use absolute path from site root so it works when served. -->
-            <object data="../assets/files/Varun_Kotian_CV.pdf" type="application/pdf">
+            <!-- Primary PDF embed. Use path from _config.yml (site.cv_link). -->
+            <object data="{{ site.cv_link | relative_url }}" type="application/pdf">
                 <!-- Fallback iframe -->
-                <iframe src="../assets/files/Varun_Kotian_CV.pdf"></iframe>
+                <iframe src="{{ site.cv_link | relative_url }}"></iframe>
                 <!-- Final fallback link -->
                 <p style="padding:1rem; text-align:center;">
                     Your browser does not support embedded PDFs. You can
-                    <a href="../assets/files/Varun_Kotian_CV.pdf" target="_blank" rel="noopener">download the CV here</a>.
+                    <a href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener">download the CV here</a>.
                 </p>
             </object>
         </div>
