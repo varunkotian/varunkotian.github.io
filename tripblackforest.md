@@ -5,28 +5,35 @@ permalink: /trip-blackforest/
 ---
 
 <style>
-  /* This turns the background dark and text light for this page only */
+  /* Dark background, light text, and highly readable car-friendly font */
   body, .page-content, .wrapper {
     background-color: #1e1e1e !important;
     color: #e0e0e0 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+    font-size: 18px !important; /* Larger text so they don't have to squint */
+    line-height: 1.6 !important; /* Extra space between lines for moving vehicles */
   }
   
-  /* Makes the headings stand out in bright white */
+  /* Makes the headings stand out clearly in bright white */
   h1, h2, h3, h4, h5, h6 {
     color: #ffffff !important;
+    font-weight: bold !important;
+    margin-top: 1.5em !important; /* Adds space above headings so days don't blur together */
   }
   
-  /* Makes links a readable light blue */
+  /* Makes links a readable, high-contrast light blue */
   a {
     color: #4da6ff !important;
+    text-decoration: underline !important; /* Underline makes links obvious */
   }
   
-  /* Styles the parking tip blockquotes to match the dark theme */
+  /* Styles the parking tip blockquotes so they pop out on the screen */
   blockquote {
     background-color: #2d2d2d !important;
-    color: #eeeeee !important;
+    color: #ffffff !important;
     border-left: 5px solid #4da6ff !important;
-    padding: 10px 15px !important;
+    padding: 15px !important;
+    font-size: 19px !important; /* Even slightly larger for the crucial parking info */
   }
 </style>
 
