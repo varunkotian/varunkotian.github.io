@@ -4,6 +4,33 @@ title: "Germany Road Trip Itinerary"
 permalink: /trip-blackforest/
 ---
 
+<style>
+  /* This turns the background dark and text light for this page only */
+  body, .page-content, .wrapper {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+  }
+  
+  /* Makes the headings stand out in bright white */
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+  }
+  
+  /* Makes links a readable light blue */
+  a {
+    color: #4da6ff !important;
+  }
+  
+  /* Styles the parking tip blockquotes to match the dark theme */
+  blockquote {
+    background-color: #2d2d2d !important;
+    color: #eeeeee !important;
+    border-left: 5px solid #4da6ff !important;
+    padding: 10px 15px !important;
+  }
+</style>
+
+
 # 7-Day Road Trip: Delft to the Black Forest
 
 Here is your complete, updated 7-day road trip itinerary! It includes specific, easy-to-access parking recommendations for every stop so you won't have to stress about where to leave the car.
