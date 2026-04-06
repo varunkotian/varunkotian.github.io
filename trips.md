@@ -80,21 +80,28 @@ Welcome to the trip directory. Use the links below to open each itinerary.
   <p id="tripSearchCount" class="trip-search-count"></p>
 </div>
 
-<ul id="tripList">
-  <li>
-    <a href="/trip-blackforest/">Germany Road Trip Itinerary - Black Forest</a><br>
-    <span>A 7-day road trip from Delft through Koblenz, Baden-Baden, Freiburg, Titisee, and Heidelberg.</span>
-  </li>
-</ul>
+- [Germany Road Trip Itinerary - Black Forest](/trip-blackforest/)  
+  A 7-day road trip from Delft through Koblenz, Baden-Baden, Freiburg, Titisee, and Heidelberg.
+
+
 
 <p id="tripEmpty" class="trip-empty">No trips matched your search.</p>
 
 <script>
   (function () {
     var input = document.getElementById("tripSearch");
-    var list = document.getElementById("tripList");
+    var list = null;
     var count = document.getElementById("tripSearchCount");
     var empty = document.getElementById("tripEmpty");
+    var searchBox = document.querySelector(".trip-search");
+
+    if (searchBox) {
+      var candidate = searchBox.nextElementSibling;
+      while (candidate && candidate.tagName !== "UL") {
+        candidate = candidate.nextElementSibling;
+      }
+      list = candidate;
+    }
 
     if (!input || !list) {
       return;
