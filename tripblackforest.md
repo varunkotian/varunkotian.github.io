@@ -4,6 +4,8 @@ title: "Germany Road Trip Itinerary"
 permalink: /trip-blackforest/
 ---
 
+[Back to Trips](/trips/)
+
 <style>
   /* Dark background, light text, and highly readable car-friendly font */
   body, .page-content, .wrapper {
