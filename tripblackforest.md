@@ -51,7 +51,9 @@ Here is your complete, updated 7-day road trip itinerary! It includes specific, 
   > **🅿️ Parking Tip:** Navigate directly to **P1 Three-Country Point** or **Parkeerplaats Drielandenpunt**. These lots are right next to the border monument, meaning very little walking to stand where the Netherlands, Belgium, and Germany meet.
 * **01:00 PM:** Have a relaxed lunch at a brasserie on the square. Take the elevator up the Wilhelminatoren watchtower for amazing views without climbing a single stair!
 * **02:30 PM:** Hop back in the car and drive into Germany.
-* **04:30 PM:** Arrive in Koblenz and check into your hotel. *(Note: Double-check on-site parking at booking).*
+* **04:30 PM:** Arrive in Koblenz and check into your hotel. 
+  > **🏨 Hotel:** [Trip Inn Hotel Hamm](https://maps.app.goo.gl/RFmGBjAtYi8dgUL86)  
+  > **🅿️ Parking:** In hotel
 * **05:30 PM:** Take a gentle, completely flat evening stroll to the Deutsches Eck (German Corner) where the Rhine and Moselle rivers meet.
 
 ---
@@ -63,6 +65,8 @@ Here is your complete, updated 7-day road trip itinerary! It includes specific, 
   > **🅿️ Parking Tip:** > * **If you stop in Boppard:** Use **Parkplatz Rheinallee** or **Parkplatz St. Remigiusplatz**. These are right along the water, completely flat, and steps away from cafes.
   > * **If you stop in Bacharach:** Navigate to **Parkplatz Rheinufer Bacharach**. It is perfectly situated right on the banks of the Rhine, meaning you avoid navigating the narrow, medieval streets with the car.
 * **02:00 PM:** Arrive in Baden-Baden and check into your hotel.
+  > **🏨 Hotel:** [Hotel Bischoff](https://maps.app.goo.gl/Dg2ukjsbShbJTQSs6)  
+  > **🅿️ Parking:** [Vincentigarage](https://maps.app.goo.gl/ALGmN2jzJ1RVqMERA)
 * **03:30 PM:** Drive to the base of the Merkurbergbahn. They have a dedicated parking lot right at the bottom station. This funicular train takes you effortlessly to the top of Merkur Mountain for a drink and spectacular views.
 
 ---
@@ -85,6 +89,8 @@ Here is your complete, updated 7-day road trip itinerary! It includes specific, 
   > **🅿️ Parking Tip:** There is a large, free parking area directly next to the **Berghotel Mummelsee**, right on the highway. Step out of the car, and the lake is right in front of you.
 * **12:30 PM:** Enjoy a traditional lunch on the lake's terrace.
 * **03:30 PM:** Arrive in Freiburg im Breisgau and check into your hotel. Use the hotel's parking garage.
+  > **🏨 Hotel:** [City Hotel Freiburg im Zentrum](https://maps.app.goo.gl/vvrjSpcUMGcPjk4m6)  
+  > **🅿️ Parking:** In hotel
 * **05:00 PM:** Take a very slow stroll around the Münsterplatz (the cathedral square).
 
 ---
@@ -103,6 +109,8 @@ Here is your complete, updated 7-day road trip itinerary! It includes specific, 
 
 * **10:00 AM:** Check out and begin the gentle journey back north.
 * **12:00 PM:** Arrive in Heidelberg and check into your hotel.
+  > **🏨 Hotel:** [Leonardo Hotel Heidelberg](https://maps.app.goo.gl/GxJ8H1L1FBSCARSG7)  
+  > **🅿️ Parking:** In hotel
 * **01:30 PM:** Have lunch on the Hauptstraße, a beautifully flat, pedestrian-only street.
 * **03:00 PM:** Visit the famous Heidelberg Castle.
   > **🅿️ Parking Tip:** Park your car in one of the central Altstadt (Old Town) parking garages, like **P12 Kornmarkt/Schloss**. From P12, you can take the Heidelberger Bergbahn (funicular train) directly up to the castle courtyard without climbing the hill!
