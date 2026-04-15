@@ -1,0 +1,59 @@
+- name: Water filter cartridge
+  category: Home
+  status: Need
+  priority_label: P1
+  priority_order: 1
+  expected_cost_eur: 28
+  target_date: 2026-05-01
+  replacement_cadence: Every 3 months
+  notes: Replace current kitchen filter.
+
+- name: Running shoes
+  category: Fitness
+  status: Need
+  priority_label: P2
+  priority_order: 2
+  expected_cost_eur: 120
+  target_date: 2026-06-15
+  replacement_cadence: Every 12 months
+  notes: Neutral cushioning, long-distance model.
+
+- name: Travel backpack 35L
+  category: Travel
+  status: Planned
+  priority_label: P1
+  priority_order: 1
+  expected_cost_eur: 95
+  target_date: 2026-07-10
+  replacement_cadence: null
+  notes: Cabin-friendly size.
+
+- name: Noise-canceling headphones
+  category: Tech
+  status: Planned
+  priority_label: P2
+  priority_order: 2
+  expected_cost_eur: 230
+  target_date: 2026-09-01
+  replacement_cadence: Every 36 months
+  notes: Good for flights and focused work.
+
+- name: Laptop stand
+  category: Work
+  status: Ordered
+  priority_label: null
+  priority_order: 999
+  expected_cost_eur: 35
+  target_date: 2026-04-20
+  replacement_cadence: null
+  notes: Waiting for delivery.
+
+- name: Reading lamp
+  category: Home
+  status: Bought
+  priority_label: null
+  priority_order: 999
+  expected_cost_eur: 45
+  target_date: 2026-04-10
+  replacement_cadence: null
+  notes: Completed.
